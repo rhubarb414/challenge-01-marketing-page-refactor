@@ -1,6 +1,5 @@
-# 01 HTML, CSS, and Git: Code Refactor
 
-# <Horiseon landing page refactor>
+# Horiseon landing page refactor
 
 ## Description
 
