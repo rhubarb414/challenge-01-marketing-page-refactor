@@ -28,15 +28,15 @@
 
     <!-- Not sure if hero image belongs in header, main or on its own. 
         Also felt like it needed a description so I gave it an id though 
-        "hero" is already a class. Problem? -->
-    <section id="hero">
+        it's not referenced anywhere. Problem? -->
+    <section id="hero-image">
       <figure>
         <!-- Removed the background-image property from .hero so that I could
          give it a proper alt in the html body. -->
         <img
           class="hero"
           src="./assets/images/digital-marketing-meeting.jpg"
-          alt=""
+          alt="Four marketers collaborating in a conference room"
         />
       </figure>
     </section>
@@ -45,6 +45,8 @@
       <section class="search-engine-optimization">
         <img
           src="./assets/images/search-engine-optimization.jpg"
+          alt="Desktop with notebook showing six areas of SEO: Content, headings, 
+          mobile compatbility, social media, link building and backlink"
           class="float-left"
         />
         <h2>Search Engine Optimization</h2>
@@ -61,6 +63,7 @@
       >
         <img
           src="./assets/images/online-reputation-management.jpg"
+          alt="Laptop screen with chart showing an improving reputation"
           class="float-right"
         />
         <h2>Online Reputation Management</h2>
@@ -75,6 +78,8 @@
       <section id="social-media-marketing" class="social-media-marketing">
         <img
           src="./assets/images/social-media-marketing.jpg"
+          alt="overhead angle of a conference table where marketers are 
+          brainstorming social media strategies"
           class="float-left"
         />
         <h2>Social Media Marketing</h2>
@@ -86,10 +91,14 @@
         </p>
       </section>
     </main>
+
     <aside class="benefits">
       <section class="benefit-lead">
         <h3>Lead Generation</h3>
-        <img src="./assets/images/lead-generation.png" />
+        <img
+          src="./assets/images/lead-generation.png"
+          alt="icon showing a gear leading into a funnel that leads to dollar sign"
+        />
         <p>
           Inbound strategies for lead generation require less work for your
           business, bringing customers directly to your website.
@@ -97,7 +106,10 @@
       </section>
       <section class="benefit-brand">
         <h3>Brand Awareness</h3>
-        <img src="./assets/images/brand-awareness.png" />
+        <img
+          src="./assets/images/brand-awareness.png"
+          alt="icon of person in suit but with a shining lightbulb for a head"
+        />
         <p>
           Users find your business through paid and organic searches, increasing
           the search ranking and visibility for your business.
@@ -105,13 +117,17 @@
       </section>
       <section class="benefit-cost">
         <h3>Cost Management</h3>
-        <img src="./assets/images/cost-management.png" />
+        <img
+          src="./assets/images/cost-management.png"
+          alt="icon with three dollar signs in front of a large gear"
+        />
         <p>
           As the search ranking for your business increases, your advertising
           costs decrease, and you no longer need to advertise your page.
         </p>
       </section>
     </aside>
+
     <footer class="footer">
       <h2>Made with ❤️️ by Horiseon</h2>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
