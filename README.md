@@ -30,11 +30,8 @@ During the course of this work, I learned more about semantic html elements and 
 
 The deployed website can be reached at: https://rhubarb414.github.io/challenge-01-marketing-page-refactor/
 
-It should resemble
+It should resemble ![the mockup available here.](./assets/images/page-mockup.png)
 
-```md
-![the mockup available here.](./assets/images/page-mockup.png)
-```
 
 ## License
 
